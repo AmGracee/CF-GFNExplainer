@@ -20,18 +20,14 @@ conda env create --file environment.yml
 python train_node.py --dataset=syn1
 ```
 
->Syn1=BA-shapes
->
->Syn4=BA-Cycles
->
->Syn1=BA-Grids
+>Syn1=BA-shapes, syn4=BA-Cycles, syn1=BA-Grids
 
 #### For graph classification
 
 ```python
 python train_graph.py --dataset=mutag
 ```
-
+> We save the trained GNN models parameters to the models folder.
 
 
 ## Training CF-GFNExplainer
