@@ -7,7 +7,7 @@ from torch_geometric.utils import dense_to_sparse
 from src.utils.utils import load_cora_data, get_neighbourhood
 from gcn_graph import GCN_graph
 from utils.utils import normalize_adj, get_neighbourhood, safe_open,load_cora_data,encode,decode,edges_unique,new_idx_edge_into_old_idx,old_idx_edge_into_new_idx
-from load_dataset import *
+from utils.load_dataset import *
 
 
 

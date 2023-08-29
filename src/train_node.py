@@ -17,7 +17,7 @@ from torch.nn.utils import clip_grad_norm
 from gcn_node import GCN
 from utils.utils import load_cora_data, accuracy_cora, normalize_adj,load_npz
 from torch_geometric.utils import accuracy, dense_to_sparse, to_undirected, to_dense_adj
-from load_dataset import *
+from utils.load_dataset import *
 
 # Defaults based on GNN Explainer
 parser = argparse.ArgumentParser()
