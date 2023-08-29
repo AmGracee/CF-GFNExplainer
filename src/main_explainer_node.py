@@ -39,7 +39,7 @@ parser.add_argument('--batch_size', type=int, default=4)
 parser.add_argument('--num_envs', type=int, default=8, help='Number of parallel environments.')
 
 # For Replay buffer
-parser.add_argument('--replay_capacity', type=int, default=4800, help='Capacity of the replay buffer.')
+parser.add_argument('--replay_capacity', type=int, default=16800, help='Capacity of the replay buffer.')
 parser.add_argument('--prefill', type=int, default=100, help='Number of iterations with a random policy to prefill')#500
 parser.add_argument('--num_iterations', type=int, default=500, help='Number of iterations')#1000
 
