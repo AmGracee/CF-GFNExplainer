@@ -33,8 +33,8 @@ python train_graph.py --dataset=mutag
 ## Training CF-GFNExplainer
 
 ```train
-python main_explainer_node.py --dataset=syn1 --num_iterations=500 --replay_capacity=4800
-python main_explainer_graph.py --dataset=mutag --num_iterations=500 --replay_capacity=4800
+python main_explainer_node.py --dataset=syn1 --num_iterations=500
+python main_explainer_graph.py --dataset=mutag --num_iterations=500
 ```
 
 >It will create another folder in the main directory called 'results', where the results files will be stored.
