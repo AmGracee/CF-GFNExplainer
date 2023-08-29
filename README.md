@@ -49,5 +49,6 @@ python main_explainer_graph.py --dataset=mutag
 To evaluate the CF examples, run the following command:
 
 ```eval
-python evaluate.py --path=../results/<NAME OF RESULTS FILE>
+python evaluate_node.py --path=../results/<NAME OF RESULTS FILE>
+python evaluate_graph.py --path=../results/<NAME OF RESULTS FILE>
 ```
