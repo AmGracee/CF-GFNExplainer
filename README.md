@@ -20,7 +20,7 @@ conda env create --file environment.yml
 python train_node.py --dataset=syn1
 ```
 
->Syn1=BA-shapes, syn4=BA-Cycles, syn1=BA-Grids
+>syn1=BA-shapes, syn4=BA-Cycles, syn5=BA-Grids
 
 #### For graph classification
 
