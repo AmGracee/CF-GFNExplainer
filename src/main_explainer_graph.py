@@ -30,7 +30,7 @@ parser.add_argument('--dropout', type=float, default=0.1, help='Dropout rate (be
 parser.add_argument('--seed', type=int, default=42, help='Random seed.')
 parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
 parser.add_argument('--nhops', type=int, default=3, help='nhop of subgraph.')
-parser.add_argument('--beta', type=int, default=0, help='whether use gflownet.')
+parser.add_argument('--beta', type=int, default=0)
 parser.add_argument('--transformer_num_layers', type=int, default=1)
 parser.add_argument('--batch_size', type=int, default=4)
 
